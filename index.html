@@ -69,16 +69,6 @@ $('menuBtn').addEventListener('click',()=>$('navlinks').classList.toggle('show')
 document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>$('navlinks').classList.remove('show')));
 function toast(msg){$('toast').textContent=msg;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),3500)}
 function routeWhatsApp(text){window.open(WHATSAPP_URL+encodeURIComponent(text),'_blank','noopener');toast('Mensagem preparada para enviar à Vértice pelo WhatsApp.')}
-$('leadForm').addEventListener('submit',e=>{e.preventDefault();if(!$('privacy').checked)return;const data={nome:$('name').value.trim(),whatsapp:$('phone').value.trim(),cidade:$('city').value.trim(),ambiente:$('type').value,etapa:$('stage').value,prazo:$('time').value,detalhes:$('details').value.trim()};const text='Olá, Vértice Marcenaria! Gostaria de conversar sobre um projeto.
-
-Nome: '+data.nome+'
-WhatsApp: '+data.whatsapp+'
-Cidade: '+data.cidade+'
-Ambiente: '+data.ambiente+'
-Etapa: '+data.etapa+'
-Prazo: '+data.prazo+(data.detalhes?'
-Detalhes: '+data.detalhes:'')+'
-
-Origem: site da Vértice';routeWhatsApp(text)});
+$('leadForm').addEventListener('submit',e=>{e.preventDefault();if(!$('privacy').checked)return;const data={nome:$('name').value.trim(),whatsapp:$('phone').value.trim(),cidade:$('city').value.trim(),ambiente:$('type').value,etapa:$('stage').value,prazo:$('time').value,detalhes:$('details').value.trim()};const text='Olá, Vértice Marcenaria! Gostaria de conversar sobre um projeto.\n\nNome: '+data.nome+'\nWhatsApp: '+data.whatsapp+'\nCidade: '+data.cidade+'\nAmbiente: '+data.ambiente+'\nEtapa: '+data.etapa+'\nPrazo: '+data.prazo+(data.detalhes?'\nDetalhes: '+data.detalhes:'')+'\n\nOrigem: site da Vértice';routeWhatsApp(text)});
 </script>
 </body></html>
