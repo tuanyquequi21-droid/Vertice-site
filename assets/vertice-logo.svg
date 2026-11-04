@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" role="img" aria-labelledby="title desc">
-<title id="title">Vértice Marcenaria</title><desc id="desc">Logotipo dourado com V geométrico dentro de um quadrado e o nome Vértice Marcenaria.</desc>
-<defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5d98c"/><stop offset=".45" stop-color="#c69a3d"/><stop offset=".72" stop-color="#f3d47c"/><stop offset="1" stop-color="#a77724"/></linearGradient></defs>
-<rect width="560" height="180" fill="#171714"/>
-<g transform="translate(16 15)"><rect x="0" y="0" width="118" height="118" fill="none" stroke="url(#gold)" stroke-width="5"/>
-<path d="M23 24 L43 24 L72 78 L97 24 L111 24 L74 101 Z" fill="url(#gold)"/>
-<path d="M35 35 L45 35 L58 58 L51 67 Z" fill="#171714"/><path d="M83 36 L94 36 L75 72 L68 61 Z" fill="#171714"/>
-</g>
-<text x="155" y="96" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="700" letter-spacing="3" fill="url(#gold)">VÉRTICE</text>
-<text x="161" y="137" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="8" fill="url(#gold)">MARCENARIA</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 210" role="img" aria-labelledby="t d"><title id="t">Vértice Marcenaria</title><desc id="d">Símbolo geométrico dourado inspirado em um V e em linhas de mobiliário planejado, acompanhado do nome Vértice Marcenaria.</desc><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8dfa0"/><stop offset=".34" stop-color="#c18d3b"/><stop offset=".68" stop-color="#f1d18a"/><stop offset="1" stop-color="#986523"/></linearGradient></defs><g fill="none" stroke="url(#g)" stroke-linejoin="miter"><path stroke-width="9" d="M24 24H172V153H24Z"/><path stroke-width="12" d="M43 45 96 139 151 45"/><path stroke-width="7" d="M96 139V77L172 24M119 100 172 54"/><path stroke-width="5" d="M24 153H172"/></g><path d="M184 40H205" stroke="url(#g)" stroke-width="3"/><text x="220" y="104" fill="url(#g)" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="600" letter-spacing="8">VÉRTICE</text><path d="M222 125H710" stroke="url(#g)" stroke-width="2"/><text x="224" y="166" fill="url(#g)" font-family="Arial,Helvetica,sans-serif" font-size="28" letter-spacing="13">MARCENARIA</text></svg>
